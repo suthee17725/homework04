@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {
+  /* min-width: 950px; */
+  min-width: 600px;
+  min-width: 600px;
+}
+
+.navContrain {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: aquamarine; */
+  font-size: 16px;
+  /* text-size-adjust: 5px; */
+  align-items: baseline;
+  padding: 5px 15px 5px 15px;
+}
+
+.navContrain > div {
+  display: flex;
+}
+
+.navContrain > div > * {
+  margin: 5px;
+}
+
+.navlogo > i {
+  font-size: 20px;
+  position: relative;
+}
+
+.navlogo > p {
+  padding-top: 3px;
+  position: relative;
+}
+.mycart {
+  margin: 15px;
+  /* padding: 15px; */
+  width: 100%;
+  /* background-color: red; */
+}
+
+.cartContrain {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  margin-top: -20px;
+  justify-content: center;
+}
+
+.cardcon {
+  width: 420px;
+  padding: 5px;
+  /* background-color: rgb(184, 97, 97); */
+  justify-content: center;
+}
+
+.itemcard {
+  width: auto;
+  margin-top: 10px;
+  height: 180px;
+  /* border: 1px solid gray; */
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(205, 205, 205, 0.78);
+
+  /* z-index; */
+  /* background-color: white; */
+}
+
+.checkoutcon {
+  width: 510px;
+  padding: 5px;
+  /* background-color: rgb(114, 184, 97); */
+}
+
+.checkoutcard {
+  width: 500px;
+  margin-top: 10px;
+  height: 370px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(205, 205, 205, 0.78);
+}
+
+.itemcard > .item1 {
+  border: 1px solid rgb(110, 212, 152);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -70px;
+  left: 25px;
+  width: 30px;
+  height: 30px;
+}
+
+/* .itemcard>.item1_1 { */
+/* border: 1px solid gray; */
+/* border-radius: 50%; */
+/* position: relative; */
+/* } */
+
+.itemcard > .item2 {
+  position: absolute;
+  /* background-color: rgb(233, 189, 32); */
+  background: radial-gradient(
+    circle,
+    rgba(96, 202, 255, 1) 0%,
+    rgba(85, 160, 210, 1) 100%
+  );
+  /* border: 1px solid gray; */
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  bottom: 15px;
+  left: 80px;
+  padding: 0px 0px 0px 15px;
+  display: flex;
+  flex-flow: column;
+  align-items: self-start;
+  justify-content: center;
+}
+
+.itemcard > .item2 > p {
+  margin-top: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.itemcard > .item3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 120px;
+  position: relative;
+  left: 245px;
+}
+
+.itemcard > .item4 {
+  display: flex;
+  position: relative;
+  left: 245px;
+  bottom: 90px;
+}
+
+.itemcard > .item4 > i {
+  margin: 2px;
+  position: relative;
+  top: 4px;
+}
+
+.itemcard > .item4 > p {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.checkoutcard > h3 {
+  margin-top: 10px;
+}
+
+.checkoutcard > .checkitem2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-weight: bold;
+  align-items: baseline;
+}
+
+.checkitem3 {
+  display: flex;
+  margin: 20px 5px 0px 5px;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  align-items: center;
+  background-color: rgb(110, 212, 152);
+  border-radius: 10px;
+}
+
+.butitem2 {
+  padding: 10px;
+  height: 60px;
+  font-size: 30px;
+}
+
+.myButton {
+  /* background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%); */
+  /* background-color:#44c767; */
+  border-radius: 10px;
+  border: 1px solid rgb(110, 212, 152);
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(110, 212, 152);
+  /* font-family:Arial; */
+  font-size: 14px;
+  padding: 10px 40px;
+  text-decoration: none;
+  /* text-shadow:0px 1px 0px #2f6627; */
+}
+.myButton:hover {
+  background: rgba(110, 212, 152, 0.193);
+  /* background-color:#5cbf2a; */
+}
+
+.inputbox {
+  padding: 10px 120px 10px 30px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  font-size: 14px;
+}
